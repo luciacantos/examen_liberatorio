@@ -1,4 +1,4 @@
-from sympy import Symbol, expand
+import sympy
 
 a = int(input("Ingrese el valor de a: "))
 b = int(input("Ingrese el valor de b: "))
@@ -10,11 +10,11 @@ expresion = (a*x + b)**n
 
 
 if a == 1:
-    solucion = (x + b)**n
-elif a == (-1)
-    solucion = solucion.replace("x", "-x")
+    expresion = (x + b)**n
+elif a == -1
+    expresion = (-x + b)**n
 else:
-    solucion = (x + b)**n
+    expresion = (a*x + b)**n
 
 
 
