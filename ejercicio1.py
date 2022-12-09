@@ -8,12 +8,6 @@ def sudoku():
                 [9, 0, 0, 0, 6, 0, 0, 0, 2],
                 [0, 1, 4, 0, 3, 0, 0, 5, 7],
                 [0, 0, 5, 0, 8, 7, 0, 0, 0]]
+    return sudoku
 
-    for i in range(9):
-        for j in range(9):
-            if sudoku[i][j] == 0:
-                print(" ", end=" ")
-            else:
-                print(sudoku[i][j], end=" ")
-        print()
-
+for i in range (9)
