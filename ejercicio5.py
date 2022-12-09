@@ -17,7 +17,6 @@ for i in range(len(x)):
         if columna == 0:
             fila = fila + 1
         else:
-            fila = fila - 1
 
 for i in range(y):
     print("".join(lista[i]))
