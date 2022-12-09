@@ -6,15 +6,15 @@ n = int(input("Ingrese el valor de n: "))
 
 
 x = Symbol('x')
-expresion = (a*x + b)**n
-
+expresion = (a*x + b)
+solucion = sympy.expand(expresion)**n
 
 if a == 1:
-    expresion = (x + b)**n
+    solucion = (x + b)**n
 elif a == -1
-    expresion = (-x + b)**n
+    solucion = (-x + b)**n
 else:
-    expresion = (a*x + b)**n
+    solucion = sympy.expand(expresion)**n
 
 
 
